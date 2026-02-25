@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni's Portfolio | Professional Roblox Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons (via CDN for static site) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Star Background Canvas -->
+    <canvas id="starfield"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">UNI'S <span>PORTFOLIO</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Animations</a></li>
+                <li><a href="#rigs">Custom Rigs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="glitch-text">Uni's Portfolio</h1>
+            <p class="subtitle">Professional Animation & Game Development | 6+ Years Experience</p>
+            <div class="hero-btns">
+                <a href="https://discord.com/users/656280455028408328" class="btn btn-primary glow-purple">
+                    <i data-lucide="message-square"></i> Contact on Discord
+                </a>
+                <a href="https://www.roblox.com/users/501864252/profile#!#about" class="btn btn-secondary glow-pink">
+                    <i data-lucide="external-link"></i> View Roblox Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="bento-grid">
+                <!-- Main About Text -->
+                <div class="bento-item bento-main glass-panel fade-in">
+                    <h3>The Developer</h3>
+                    <p>I am a dedicated <strong>Roblox Animator & Developer</strong> with over 4 years of specialized animation experience and 6 years of overall platform development. Having contributed to projects with over <strong>1.3 million total visits</strong>, my workflow is built on precision, efficiency, and a "quality over quantity" philosophy.</p>
+                    <p>I specialize in <strong>Moon Animator</strong>, creating fluid and impactful animations for R6, R15, and complex custom rigs.</p>
+                </div>
+                
+                <!-- Stat: Visits -->
+                <div class="bento-item bento-stat glass-panel fade-in">
+                    <span class="stat-num">1.3M+</span>
+                    <span class="stat-label">Total Game Visits</span>
+                </div>
+
+                <!-- Stat: Animation -->
+                <div class="bento-item bento-stat glass-panel fade-in">
+                    <span class="stat-num">4+</span>
+                    <span class="stat-label">Years Animation</span>
+                </div>
+
+                <!-- Philosophy -->
+                <div class="bento-item bento-philosophy glass-panel fade-in">
+                    <i data-lucide="shield-check"></i>
+                    <h3>Philosophy</h3>
+                    <p>Precision. Fluidity. Impact.</p>
+                </div>
+
+                <!-- Stat: Roblox Dev -->
+                <div class="bento-item bento-stat glass-panel fade-in">
+                    <span class="stat-num">6+</span>
+                    <span class="stat-label">Years Roblox Dev</span>
+                </div>
+                
+                <!-- Workflow Highlight -->
+                <div class="bento-item bento-workflow glass-panel fade-in">
+                    <i data-lucide="cpu"></i>
+                    <h3>Workflow</h3>
+                    <p>Highly optimized Moon Animator sequences for maximum performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <i data-lucide="layers"></i>
+                    <h3>Moon Animator</h3>
+                    <p>Advanced mastery of Moon Animator for complex sequences.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 100%"></div>
+                        <span class="mastery-label">100% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="user"></i>
+                    <h3>R6 Animation</h3>
+                    <p>Classic blocky style with modern, fluid motion.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 100%"></div>
+                        <span class="mastery-label">100% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="users"></i>
+                    <h3>R15 Animation</h3>
+                    <p>Detailed articulated movement for realistic characters.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 70%"></div>
+                        <span class="mastery-label">70% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="settings"></i>
+                    <h3>Custom Rigs</h3>
+                    <p>Animating non-humanoid and unique mechanical structures.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 80%"></div>
+                        <span class="mastery-label">80% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="bone"></i>
+                    <h3>Professional Rigging</h3>
+                    <p>Expert-level bone structure and weight painting.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 85%"></div>
+                        <span class="mastery-label">85% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="code"></i>
+                    <h3>Game Development</h3>
+                    <p>Full-stack Roblox development and systems integration.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 65%"></div>
+                        <span class="mastery-label">65% Mastery</span>
+                    </div>
+                </div>
+                <div class="skill-card fade-in">
+                    <i data-lucide="zap"></i>
+                    <h3>Organized Workflow</h3>
+                    <p>Highly efficient project management and clean assets.</p>
+                    <div class="mastery-container">
+                        <div class="mastery-bar" style="width: 90%"></div>
+                        <span class="mastery-label">90% Mastery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Animations</h2>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Videos are dynamically injected by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Rigs Section -->
+    <section id="rigs" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Custom Rigs Gallery</h2>
+            <div class="portfolio-grid" id="rigs-grid">
+                <!-- Images are dynamically injected by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="glass-panel contact-panel fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Looking for high-quality animations for your next project? Let's collaborate.</p>
+                <div class="contact-links">
+                    <a href="INSERT_DISCORD_LINK" class="contact-btn discord-btn">
+                        <i data-lucide="message-square"></i> Discord
+                    </a>
+                    <a href="INSERT_ROBLOX_LINK" class="contact-btn roblox-btn">
+                        <i data-lucide="external-link"></i> Roblox
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 UniTheVerse.</p>
+        </div>
+    </footer>
+
+    <!-- Media Modal -->
+    <div id="media-modal" class="modal">
+        <div class="modal-controls">
+            <span class="modal-fullscreen" id="modal-fullscreen-btn" title="Toggle Fullscreen">
+                <i data-lucide="maximize"></i>
+            </span>
+            <span class="modal-close" title="Close">&times;</span>
+        </div>
+        <div class="modal-content-wrapper" id="modal-wrapper">
+            <div id="modal-media-container"></div>
+            <div class="watermark">UniTheVerse</div>
+        </div>
+    </div>
+
+    <!-- Sound Toggle -->
+    <div id="sound-toggle" class="sound-toggle" title="Toggle Sound Effects">
+        <i data-lucide="volume-2"></i>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
